@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "Régularisation Espagne 2026",
+    "subtitle": "Assistant d'évaluation d'éligibilité"
+  },
+  "home": {
+    "welcome": "Bienvenue dans l'Assistant de Régularisation",
+    "description": "Cet outil vous aidera à évaluer si vous remplissez les conditions pour la Régularisation Extraordinaire 2026 en Espagne.",
+    "selectLanguage": "Sélectionnez votre langue",
+    "startButton": "Commencer l'évaluation",
+    "disclaimer": "Cet outil est à titre informatif. Il ne remplace pas un conseil juridique professionnel.",
+    "privacy": "Nous ne collectons aucune donnée personnelle identifiable."
+  },
+  "wizard": {
+    "title": "Évaluation d'éligibilité",
+    "progress": "Étape {{current}} sur {{total}}",
+    "next": "Suivant",
+    "back": "Retour",
+    "yes": "Oui",
+    "no": "Non",
+    "q1": {
+      "title": "Date d'arrivée en Espagne",
+      "question": "Êtes-vous arrivé(e) en Espagne avant le 31 décembre 2025 ?",
+      "help": "Pour être éligible, vous devez être arrivé(e) en Espagne avant cette date."
+    },
+    "q2": {
+      "title": "Résidence continue",
+      "question": "Avez-vous résidé de manière continue en Espagne pendant au moins 5 mois avant de déposer votre demande ?",
+      "help": "Une résidence continue minimale de 5 mois est requise."
+    },
+    "q3": {
+      "title": "Casier judiciaire",
+      "question": "Avez-vous un casier judiciaire vierge en Espagne et dans vos pays de résidence des 5 dernières années ?",
+      "help": "Vous ne devez pas avoir de casier judiciaire pour être éligible."
+    },
+    "q4": {
+      "title": "Demande d'asile",
+      "question": "Êtes-vous demandeur d'asile avec une demande déposée avant le 31 décembre 2025 ?",
+      "help": "Si vous êtes demandeur d'asile, votre demande doit avoir été déposée avant cette date. Si vous n'êtes pas demandeur d'asile, sélectionnez 'Non applicable'.",
+      "notApplicable": "Non applicable"
+    }
+  },
+  "results": {
+    "title": "Résultat de votre évaluation",
+    "eligible": "Vous remplissez les conditions de base",
+    "eligibleDesc": "D'après vos réponses, vous semblez remplir les conditions de base pour la Régularisation Extraordinaire 2026.",
+    "notEligible": "Vous ne remplissez pas les conditions",
+    "notEligibleDesc": "D'après vos réponses, il est possible que vous ne remplissiez pas certaines conditions de base. Nous vous recommandons de consulter un avocat spécialisé.",
+    "review": "Révision professionnelle nécessaire",
+    "reviewDesc": "Votre situation peut nécessiter un examen plus détaillé par un professionnel juridique.",
+    "viewChecklist": "Voir les documents requis",
+    "viewCalendar": "Voir les dates et délais clés",
+    "restart": "Recommencer"
+  },
+  "checklist": {
+    "title": "Documents requis",
+    "subtitle": "Cochez les documents que vous avez déjà préparés",
+    "doc1": {
+      "name": "Passeport valide, titre de voyage ou certificat d'inscription",
+      "detail": "Un document d'identité valide et en cours de validité."
+    },
+    "doc2": {
+      "name": "Certificat de casier judiciaire",
+      "detail": "Doit être légalisé ou apostillé. D'Espagne et des pays de résidence des 5 dernières années."
+    },
+    "doc3": {
+      "name": "Preuves de résidence en Espagne",
+      "detail": "Certificat d'inscription municipale, rendez-vous médicaux, contrats, factures ou autres documents prouvant votre séjour."
+    },
+    "doc4": {
+      "name": "Demande d'asile (le cas échéant)",
+      "detail": "Documentation prouvant la demande de protection internationale déposée avant le 31/12/2025."
+    },
+    "saved": "Progrès sauvegardé"
+  },
+  "calendar": {
+    "title": "Dates clés et délais",
+    "subtitle": "Gardez ces dates importantes à l'esprit",
+    "date1": {
+      "date": "16 avril 2026",
+      "title": "Début de la soumission en ligne",
+      "desc": "La période de dépôt des demandes en ligne s'ouvre."
+    },
+    "date2": {
+      "date": "20 avril 2026",
+      "title": "Début des rendez-vous en personne",
+      "desc": "Les rendez-vous en personne dans les bureaux commencent."
+    },
+    "date3": {
+      "date": "30 juin 2026",
+      "title": "Date limite de candidature",
+      "desc": "Dernier jour pour soumettre votre demande. N'attendez pas le dernier moment !"
+    },
+    "appointmentLink": "Prendre rendez-vous",
+    "appointmentInfo": "Visitez le site du Ministère de l'Inclusion, de la Sécurité Sociale et des Migrations pour prendre rendez-vous.",
+    "warning": "⚠️ Les délais sont stricts. Préparez vos documents à l'avance."
+  },
+  "nav": {
+    "home": "Accueil",
+    "wizard": "Évaluation",
+    "checklist": "Documents",
+    "calendar": "Délais"
+  }
+}

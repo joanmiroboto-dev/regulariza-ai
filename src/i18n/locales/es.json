@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "Regularización España 2026",
+    "subtitle": "Asistente de Evaluación de Elegibilidad"
+  },
+  "home": {
+    "welcome": "Bienvenido al Asistente de Regularización",
+    "description": "Esta herramienta te ayudará a evaluar si cumples los requisitos para la Regularización Extraordinaria de 2026 en España.",
+    "selectLanguage": "Selecciona tu idioma",
+    "startButton": "Comenzar Evaluación",
+    "disclaimer": "Esta herramienta es informativa. No sustituye el asesoramiento legal profesional.",
+    "privacy": "No recopilamos datos personales identificativos."
+  },
+  "wizard": {
+    "title": "Evaluación de Elegibilidad",
+    "progress": "Paso {{current}} de {{total}}",
+    "next": "Siguiente",
+    "back": "Atrás",
+    "yes": "Sí",
+    "no": "No",
+    "q1": {
+      "title": "Fecha de llegada a España",
+      "question": "¿Llegaste a España antes del 31 de diciembre de 2025?",
+      "help": "Para ser elegible, debes haber llegado a España antes de esta fecha."
+    },
+    "q2": {
+      "title": "Permanencia continuada",
+      "question": "¿Has residido de forma continuada en España al menos 5 meses antes de presentar tu solicitud?",
+      "help": "Se requiere una permanencia mínima continuada de 5 meses."
+    },
+    "q3": {
+      "title": "Antecedentes penales",
+      "question": "¿Careces de antecedentes penales en España y en tus países de residencia de los últimos 5 años?",
+      "help": "No debes tener antecedentes penales para ser elegible."
+    },
+    "q4": {
+      "title": "Solicitud de asilo",
+      "question": "¿Eres solicitante de asilo con solicitud presentada antes del 31 de diciembre de 2025?",
+      "help": "Si eres solicitante de asilo, tu solicitud debe haberse presentado antes de esta fecha. Si no eres solicitante de asilo, selecciona 'No aplica'.",
+      "notApplicable": "No aplica"
+    }
+  },
+  "results": {
+    "title": "Resultado de tu Evaluación",
+    "eligible": "Cumples los requisitos básicos",
+    "eligibleDesc": "Según tus respuestas, pareces cumplir con los requisitos básicos para la Regularización Extraordinaria 2026.",
+    "notEligible": "No cumples los requisitos",
+    "notEligibleDesc": "Según tus respuestas, es posible que no cumplas alguno de los requisitos básicos. Te recomendamos consultar con un abogado especializado.",
+    "review": "Requiere revisión profesional",
+    "reviewDesc": "Tu situación puede requerir una revisión más detallada por un profesional legal.",
+    "viewChecklist": "Ver documentos necesarios",
+    "viewCalendar": "Ver plazos y fechas clave",
+    "restart": "Volver a empezar"
+  },
+  "checklist": {
+    "title": "Documentos Necesarios",
+    "subtitle": "Marca los documentos que ya tienes preparados",
+    "doc1": {
+      "name": "Pasaporte en vigor, título de viaje o cédula de inscripción",
+      "detail": "Documento de identidad válido y vigente."
+    },
+    "doc2": {
+      "name": "Certificado de antecedentes penales",
+      "detail": "Debe estar legalizado o apostillado. De España y de los países de residencia de los últimos 5 años."
+    },
+    "doc3": {
+      "name": "Pruebas de permanencia en España",
+      "detail": "Certificado de empadronamiento, citas médicas, contratos, facturas u otros documentos que acrediten tu estancia."
+    },
+    "doc4": {
+      "name": "Solicitud de asilo (si aplica)",
+      "detail": "Documentación que acredite la solicitud de protección internacional presentada antes del 31/12/2025."
+    },
+    "saved": "Progreso guardado"
+  },
+  "calendar": {
+    "title": "Fechas Clave y Plazos",
+    "subtitle": "Ten en cuenta estas fechas importantes",
+    "date1": {
+      "date": "16 de abril de 2026",
+      "title": "Inicio de presentación telemática",
+      "desc": "Se abre el plazo para presentar solicitudes por internet."
+    },
+    "date2": {
+      "date": "20 de abril de 2026",
+      "title": "Inicio de atención presencial",
+      "desc": "Comienzan las citas presenciales en las oficinas."
+    },
+    "date3": {
+      "date": "30 de junio de 2026",
+      "title": "Fecha límite de solicitud",
+      "desc": "Último día para presentar tu solicitud. ¡No esperes al último momento!"
+    },
+    "appointmentLink": "Solicitar cita previa",
+    "appointmentInfo": "Visita la web del Ministerio de Inclusión, Seguridad Social y Migraciones para pedir tu cita.",
+    "warning": "⚠️ Los plazos son estrictos. Prepara tus documentos con antelación."
+  },
+  "nav": {
+    "home": "Inicio",
+    "wizard": "Evaluación",
+    "checklist": "Documentos",
+    "calendar": "Plazos"
+  }
+}
