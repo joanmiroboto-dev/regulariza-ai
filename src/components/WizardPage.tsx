@@ -146,7 +146,8 @@ const WizardPage = ({ onComplete, onBack }: WizardPageProps) => {
               </button>
             )}
           </div>
-        </div>
+        </motion.div>
+        </AnimatePresence>
 
         {/* Navigation */}
         <div className="flex gap-3">
