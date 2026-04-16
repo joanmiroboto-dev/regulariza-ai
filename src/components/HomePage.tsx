@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { languages, RTL_LANGUAGES, type LanguageCode } from '@/i18n';
 import { Button } from '@/components/ui/button';
 import { Shield, FileText, Calendar } from 'lucide-react';
+import logoImg from '@/assets/logo.jpg';
 
 interface HomePageProps {
   onStart: () => void;
