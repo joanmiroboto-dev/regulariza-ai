@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 import { Button } from '@/components/ui/button';
 import { CheckCircle2, XCircle, AlertTriangle, FileText, Calendar, RotateCcw } from 'lucide-react';
 import type { WizardAnswers } from './WizardPage';
@@ -23,19 +24,22 @@ interface ResultsPageProps {
 const resultConfig = {
   eligible: {
     icon: CheckCircle2,
-    badgeClass: 'result-badge-eligible',
+    badgeClass: 'bg-accent/15',
+    iconClass: 'text-accent',
     titleKey: 'results.eligible',
     descKey: 'results.eligibleDesc',
   },
   not_eligible: {
     icon: XCircle,
-    badgeClass: 'result-badge-not-eligible',
+    badgeClass: 'bg-destructive/15',
+    iconClass: 'text-destructive',
     titleKey: 'results.notEligible',
     descKey: 'results.notEligibleDesc',
   },
   review: {
     icon: AlertTriangle,
-    badgeClass: 'result-badge-review',
+    badgeClass: 'bg-warning/15',
+    iconClass: 'text-warning',
     titleKey: 'results.review',
     descKey: 'results.reviewDesc',
   },
@@ -56,45 +60,70 @@ const ResultsPage = ({ answers, onViewChecklist, onViewCalendar, onRestart }: Re
 
         {/* Result card */}
         <div className="wizard-card text-center space-y-5">
-          <div className={`inline-flex items-center justify-center w-20 h-20 rounded-full ${config.badgeClass}`}>
-            <Icon className="w-10 h-10" />
-          </div>
-          <h2 className="text-xl font-bold font-heading text-foreground">
+          <motion.div
+            initial={{ scale: 0, rotate: -180 }}
+            animate={{ scale: 1, rotate: 0 }}
+            transition={{ type: 'spring', stiffness: 200, damping: 15, delay: 0.2 }}
+            className={`inline-flex items-center justify-center w-24 h-24 rounded-full ${config.badgeClass}`}
+          >
+            <motion.div
+              animate={result === 'eligible' ? { scale: [1, 1.1, 1] } : result === 'review' ? { rotate: [0, 5, -5, 0] } : {}}
+              transition={{ duration: 2, repeat: Infinity }}
+            >
+              <Icon className={`w-12 h-12 ${config.iconClass}`} />
+            </motion.div>
+          </motion.div>
+          <motion.h2
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.4 }}
+            className="text-xl font-bold font-heading text-foreground"
+          >
             {t(config.titleKey)}
-          </h2>
-          <p className="text-muted-foreground leading-relaxed">
+          </motion.h2>
+          <motion.p
+            initial={{ opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.5 }}
+            className="text-muted-foreground leading-relaxed"
+          >
             {t(config.descKey)}
-          </p>
+          </motion.p>
         </div>
 
         {/* Action buttons */}
         {result !== 'not_eligible' && (
-          <div className="space-y-3">
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.6 }}
+            className="space-y-3"
+          >
             <Button
               onClick={onViewChecklist}
               variant="outline"
-              className="w-full py-5 rounded-xl justify-start gap-3"
+              className="w-full py-5 rounded-xl justify-start gap-3 group"
             >
-              <FileText className="w-5 h-5 text-primary" />
+              <FileText className="w-5 h-5 text-primary transition-transform group-hover:scale-110" />
               {t('results.viewChecklist')}
             </Button>
             <Button
               onClick={onViewCalendar}
               variant="outline"
-              className="w-full py-5 rounded-xl justify-start gap-3"
+              className="w-full py-5 rounded-xl justify-start gap-3 group"
             >
-              <Calendar className="w-5 h-5 text-primary" />
+              <Calendar className="w-5 h-5 text-primary transition-transform group-hover:scale-110" />
               {t('results.viewCalendar')}
             </Button>
-          </div>
+          </motion.div>
         )}
 
         <Button
           onClick={onRestart}
           variant="ghost"
-          className="w-full py-5 rounded-xl gap-2 text-muted-foreground"
+          className="w-full py-5 rounded-xl gap-2 text-muted-foreground group"
         >
-          <RotateCcw className="w-4 h-4" />
+          <RotateCcw className="w-4 h-4 transition-transform group-hover:-rotate-180 duration-500" />
           {t('results.restart')}
         </Button>
       </div>
