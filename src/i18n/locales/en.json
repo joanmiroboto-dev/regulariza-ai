@@ -1,0 +1,104 @@
+{
+  "app": {
+    "title": "Spain Regularization 2026",
+    "subtitle": "Eligibility Assessment Assistant"
+  },
+  "home": {
+    "welcome": "Welcome to the Regularization Assistant",
+    "description": "This tool will help you assess whether you meet the requirements for Spain's Extraordinary Regularization 2026.",
+    "selectLanguage": "Select your language",
+    "startButton": "Start Assessment",
+    "disclaimer": "This tool is for informational purposes only. It does not replace professional legal advice.",
+    "privacy": "We do not collect personally identifiable data."
+  },
+  "wizard": {
+    "title": "Eligibility Assessment",
+    "progress": "Step {{current}} of {{total}}",
+    "next": "Next",
+    "back": "Back",
+    "yes": "Yes",
+    "no": "No",
+    "q1": {
+      "title": "Arrival Date in Spain",
+      "question": "Did you arrive in Spain before December 31, 2025?",
+      "help": "To be eligible, you must have arrived in Spain before this date."
+    },
+    "q2": {
+      "title": "Continuous Residence",
+      "question": "Have you lived continuously in Spain for at least 5 months before filing your application?",
+      "help": "A minimum continuous residence of 5 months is required."
+    },
+    "q3": {
+      "title": "Criminal Record",
+      "question": "Do you have a clean criminal record in Spain and in your countries of residence for the last 5 years?",
+      "help": "You must not have a criminal record to be eligible."
+    },
+    "q4": {
+      "title": "Asylum Application",
+      "question": "Are you an asylum seeker with an application filed before December 31, 2025?",
+      "help": "If you are an asylum seeker, your application must have been filed before this date. If you are not an asylum seeker, select 'Not applicable'.",
+      "notApplicable": "Not applicable"
+    }
+  },
+  "results": {
+    "title": "Your Assessment Result",
+    "eligible": "You meet the basic requirements",
+    "eligibleDesc": "Based on your answers, you appear to meet the basic requirements for the Extraordinary Regularization 2026.",
+    "notEligible": "You do not meet the requirements",
+    "notEligibleDesc": "Based on your answers, you may not meet some of the basic requirements. We recommend consulting with a specialized lawyer.",
+    "review": "Professional review required",
+    "reviewDesc": "Your situation may require a more detailed review by a legal professional.",
+    "viewChecklist": "View required documents",
+    "viewCalendar": "View key dates and deadlines",
+    "restart": "Start over"
+  },
+  "checklist": {
+    "title": "Required Documents",
+    "subtitle": "Check off the documents you already have ready",
+    "doc1": {
+      "name": "Valid passport, travel document, or registration certificate",
+      "detail": "A valid and current identity document."
+    },
+    "doc2": {
+      "name": "Criminal record certificate",
+      "detail": "Must be legalized or apostilled. From Spain and from countries of residence in the last 5 years."
+    },
+    "doc3": {
+      "name": "Proof of residence in Spain",
+      "detail": "Municipal registration certificate, medical appointments, contracts, bills, or other documents proving your stay."
+    },
+    "doc4": {
+      "name": "Asylum application (if applicable)",
+      "detail": "Documentation proving the international protection application filed before 12/31/2025."
+    },
+    "saved": "Progress saved"
+  },
+  "calendar": {
+    "title": "Key Dates and Deadlines",
+    "subtitle": "Keep these important dates in mind",
+    "date1": {
+      "date": "April 16, 2026",
+      "title": "Online submission begins",
+      "desc": "The period to submit applications online opens."
+    },
+    "date2": {
+      "date": "April 20, 2026",
+      "title": "In-person appointments begin",
+      "desc": "In-person appointments at offices begin."
+    },
+    "date3": {
+      "date": "June 30, 2026",
+      "title": "Application deadline",
+      "desc": "Last day to submit your application. Don't wait until the last moment!"
+    },
+    "appointmentLink": "Request an appointment",
+    "appointmentInfo": "Visit the Ministry of Inclusion, Social Security and Migration website to request your appointment.",
+    "warning": "⚠️ Deadlines are strict. Prepare your documents in advance."
+  },
+  "nav": {
+    "home": "Home",
+    "wizard": "Assessment",
+    "checklist": "Documents",
+    "calendar": "Deadlines"
+  }
+}

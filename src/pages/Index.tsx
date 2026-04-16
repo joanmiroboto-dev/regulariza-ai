@@ -1,16 +1,40 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { useState } from 'react';
+import HomePage from '@/components/HomePage';
+import WizardPage, { type WizardAnswers } from '@/components/WizardPage';
+import ResultsPage from '@/components/ResultsPage';
+import ChecklistPage from '@/components/ChecklistPage';
+import CalendarPage from '@/components/CalendarPage';
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
-  return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
-    </div>
-  );
+type AppView = 'home' | 'wizard' | 'results' | 'checklist' | 'calendar';
+
+const Index = () => {
+  const [view, setView] = useState<AppView>('home');
+  const [answers, setAnswers] = useState<WizardAnswers | null>(null);
+
+  const handleWizardComplete = (wizardAnswers: WizardAnswers) => {
+    setAnswers(wizardAnswers);
+    setView('results');
+  };
+
+  switch (view) {
+    case 'home':
+      return <HomePage onStart={() => setView('wizard')} />;
+    case 'wizard':
+      return <WizardPage onComplete={handleWizardComplete} onBack={() => setView('home')} />;
+    case 'results':
+      return (
+        <ResultsPage
+          answers={answers!}
+          onViewChecklist={() => setView('checklist')}
+          onViewCalendar={() => setView('calendar')}
+          onRestart={() => { setAnswers(null); setView('home'); }}
+        />
+      );
+    case 'checklist':
+      return <ChecklistPage onBack={() => setView('results')} />;
+    case 'calendar':
+      return <CalendarPage onBack={() => setView('results')} />;
+  }
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
