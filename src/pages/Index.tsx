@@ -5,6 +5,7 @@ import ResultsPage from '@/components/ResultsPage';
 import ChecklistPage from '@/components/ChecklistPage';
 import CalendarPage from '@/components/CalendarPage';
 import PageTransition from '@/components/PageTransition';
+import ThemeToggle from '@/components/ThemeToggle';
 
 type AppView = 'home' | 'wizard' | 'results' | 'checklist' | 'calendar';
 
@@ -40,9 +41,12 @@ const Index = () => {
   };
 
   return (
-    <PageTransition viewKey={view}>
-      {renderView()}
-    </PageTransition>
+    <>
+      <ThemeToggle />
+      <PageTransition viewKey={view}>
+        {renderView()}
+      </PageTransition>
+    </>
   );
 };
 
