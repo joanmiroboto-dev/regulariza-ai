@@ -1,0 +1,66 @@
+{
+  "tutor": {
+    "title": "Regularization Tutor",
+    "greeting": "Hello! I'm your assistant. Select a frequently asked question or type your question and I'll find the most relevant answer.",
+    "placeholder": "Type your question...",
+    "noResults": "I couldn't find an exact answer. I recommend consulting with a lawyer specialized in immigration law.",
+    "categories": {
+      "eligibility": "Eligibility",
+      "documents": "Documents",
+      "process": "Process",
+      "deadlines": "Deadlines",
+      "general": "General"
+    },
+    "suggestedQuestions": "Frequently asked questions",
+    "faq": {
+      "f1": {
+        "q": "Who can apply for the extraordinary regularization?",
+        "a": "Foreign nationals in an irregular administrative situation who have been residing in Spain before December 31, 2025, as well as international protection applicants with applications filed before that date. You must have no criminal record and prove at least 5 months of continuous residence."
+      },
+      "f2": {
+        "q": "What if I arrived in Spain after December 31, 2025?",
+        "a": "Unfortunately, if you arrived after that date, you do not meet one of the basic requirements for this extraordinary regularization. We recommend consulting a lawyer to explore other available legal pathways."
+      },
+      "f3": {
+        "q": "What does '5 months of continuous residence' mean?",
+        "a": "It means you must have lived uninterruptedly in Spain for at least 5 months before filing your application. Brief trips outside the country may not invalidate this requirement, but it's important to be able to prove it with documents like municipal registration."
+      },
+      "f4": {
+        "q": "What documents do I need to apply?",
+        "a": "The main documents are: 1) Valid passport, travel document, or registration certificate. 2) Legalized or apostilled criminal record certificate (from Spain and countries where you've lived in the last 5 years). 3) Proof of residence in Spain (municipal registration, medical appointments, contracts, bills, etc.)."
+      },
+      "f5": {
+        "q": "How do I get the criminal record certificate?",
+        "a": "In Spain, you can request it online from the Ministry of Justice website or in person. For records from your home country, contact the corresponding consulate. Remember it must be legalized or apostilled depending on the issuing country."
+      },
+      "f6": {
+        "q": "What proofs of residence are valid?",
+        "a": "Valid proofs include: municipal registration certificate, medical reports or healthcare appointments, rental contracts, utility bills (electricity, water, phone), bank statements, registered transport cards, declarations from NGOs that assisted you, and any official document proving your stay."
+      },
+      "f7": {
+        "q": "How do I submit my application?",
+        "a": "There are two ways: 1) Online: available from April 16, 2026 through the Ministry's electronic office. 2) In person: with a prior appointment from April 20, 2026. It's recommended to try the online route first to avoid queues."
+      },
+      "f8": {
+        "q": "Do I need a lawyer to submit the application?",
+        "a": "It's not mandatory, but highly recommended to have legal advice, especially if your situation is complex. There are organizations and NGOs that offer free immigration legal advice. Check with the Bar Association in your province about free legal aid."
+      },
+      "f9": {
+        "q": "What are the key dates?",
+        "a": "📅 April 16, 2026: Online submission begins. 📅 April 20, 2026: In-person appointments begin. 📅 June 30, 2026: Application deadline. It's very important not to wait until the last moment!"
+      },
+      "f10": {
+        "q": "What happens if I don't apply before June 30?",
+        "a": "If you don't submit your application before June 30, 2026, you will lose the opportunity to benefit from this extraordinary regularization. Deadlines are strict and non-extendable. That's why it's essential to prepare your documents in advance."
+      },
+      "f11": {
+        "q": "How much does the process cost?",
+        "a": "The exact administrative fees will be published when the process opens. They usually include the authorization issuance fee. We recommend checking the Ministry of Inclusion, Social Security and Migration website for updated cost information."
+      },
+      "f12": {
+        "q": "Does this tool replace legal advice?",
+        "a": "No. This tool is for informational and guidance purposes only. It does not replace professional legal advice. Each case is different and may have particularities that require specialized attention. We always recommend consulting with a lawyer specialized in immigration law."
+      }
+    }
+  }
+}

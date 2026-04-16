@@ -1,0 +1,30 @@
+{
+  "tutor": {
+    "title": "Tuteur de Régularisation",
+    "greeting": "Bonjour ! Je suis votre assistant. Sélectionnez une question fréquente ou tapez votre question et je trouverai la réponse la plus pertinente.",
+    "placeholder": "Tapez votre question...",
+    "noResults": "Je n'ai pas trouvé de réponse exacte. Je vous recommande de consulter un avocat spécialisé en droit de l'immigration.",
+    "categories": {
+      "eligibility": "Éligibilité",
+      "documents": "Documents",
+      "process": "Processus",
+      "deadlines": "Délais",
+      "general": "Général"
+    },
+    "suggestedQuestions": "Questions fréquentes",
+    "faq": {
+      "f1": { "q": "Qui peut demander la régularisation extraordinaire ?", "a": "Les ressortissants étrangers en situation administrative irrégulière résidant en Espagne avant le 31 décembre 2025, ainsi que les demandeurs de protection internationale avec une demande déposée avant cette date. Il faut n'avoir aucun casier judiciaire et justifier d'au moins 5 mois de résidence continue." },
+      "f2": { "q": "Et si je suis arrivé(e) en Espagne après le 31 décembre 2025 ?", "a": "Malheureusement, si vous êtes arrivé(e) après cette date, vous ne remplissez pas l'une des conditions de base. Nous vous recommandons de consulter un avocat pour explorer d'autres voies légales." },
+      "f3": { "q": "Que signifie '5 mois de résidence continue' ?", "a": "Cela signifie que vous devez avoir résidé de manière ininterrompue en Espagne pendant au moins 5 mois avant de déposer votre demande. De brefs voyages à l'étranger peuvent ne pas invalider cette condition, mais il est important de pouvoir le prouver." },
+      "f4": { "q": "Quels documents dois-je fournir ?", "a": "Les documents principaux sont : 1) Passeport valide ou document de voyage. 2) Certificat de casier judiciaire légalisé ou apostillé. 3) Preuves de résidence en Espagne (inscription municipale, rendez-vous médicaux, contrats, factures, etc.)." },
+      "f5": { "q": "Comment obtenir le certificat de casier judiciaire ?", "a": "En Espagne, vous pouvez le demander en ligne sur le site du Ministère de la Justice ou en personne. Pour votre pays d'origine, contactez le consulat correspondant. N'oubliez pas qu'il doit être légalisé ou apostillé." },
+      "f6": { "q": "Quelles preuves de résidence sont valables ?", "a": "Sont valables : certificat d'inscription municipale, rapports médicaux, contrats de location, factures de services, relevés bancaires, cartes de transport nominatives, attestations d'ONG, et tout document officiel prouvant votre séjour." },
+      "f7": { "q": "Comment déposer ma demande ?", "a": "Deux voies : 1) En ligne : disponible à partir du 16 avril 2026. 2) En personne : avec rendez-vous à partir du 20 avril 2026. Il est recommandé d'essayer d'abord la voie en ligne." },
+      "f8": { "q": "Ai-je besoin d'un avocat ?", "a": "Ce n'est pas obligatoire, mais fortement recommandé, surtout si votre situation est complexe. Il existe des organisations et ONG qui offrent des conseils juridiques gratuits en matière d'immigration." },
+      "f9": { "q": "Quelles sont les dates clés ?", "a": "📅 16 avril 2026 : Début des dépôts en ligne. 📅 20 avril 2026 : Début des rendez-vous en personne. 📅 30 juin 2026 : Date limite. N'attendez pas le dernier moment !" },
+      "f10": { "q": "Que se passe-t-il si je ne dépose pas avant le 30 juin ?", "a": "Vous perdrez l'opportunité de bénéficier de cette régularisation extraordinaire. Les délais sont stricts et non prolongeables." },
+      "f11": { "q": "Combien coûte la procédure ?", "a": "Les frais administratifs exacts seront publiés à l'ouverture du processus. Consultez le site du Ministère pour les informations à jour." },
+      "f12": { "q": "Cet outil remplace-t-il un conseil juridique ?", "a": "Non. Cet outil est uniquement informatif. Il ne remplace pas un conseil juridique professionnel. Consultez toujours un avocat spécialisé." }
+    }
+  }
+}
