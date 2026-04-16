@@ -85,7 +85,7 @@ const ResultsPage = ({ answers, onViewChecklist, onViewCalendar, onRestart }: Re
             initial={{ opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5 }}
-            className="text-muted-foreground leading-relaxed"
+            className="text-muted-foreground leading-relaxed whitespace-pre-line"
           >
             {t(config.descKey)}
           </motion.p>
