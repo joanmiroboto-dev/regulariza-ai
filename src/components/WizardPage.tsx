@@ -78,8 +78,15 @@ const WizardPage = ({ onComplete, onBack }: WizardPageProps) => {
           <Progress value={progress} className="h-2" />
         </div>
 
-        {/* Question card */}
-        <div className="wizard-card space-y-6">
+        <AnimatePresence mode="wait">
+        <motion.div
+          key={step}
+          initial={{ opacity: 0, x: 40 }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 0, x: -40 }}
+          transition={{ duration: 0.25, ease: [0.22, 1, 0.36, 1] }}
+          className="wizard-card space-y-6"
+        >
           <div className="space-y-2">
             <h2 className="text-lg font-bold font-heading text-foreground">
               {t(`wizard.q${step}.title`)}
