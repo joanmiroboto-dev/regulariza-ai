@@ -11,6 +11,15 @@ import ur from './locales/ur.json';
 import pa from './locales/pa.json';
 import hi from './locales/hi.json';
 
+import tutor_es from './locales/tutor_es.json';
+import tutor_en from './locales/tutor_en.json';
+import tutor_fr from './locales/tutor_fr.json';
+import tutor_ar from './locales/tutor_ar.json';
+import tutor_ro from './locales/tutor_ro.json';
+import tutor_ur from './locales/tutor_ur.json';
+import tutor_pa from './locales/tutor_pa.json';
+import tutor_hi from './locales/tutor_hi.json';
+
 export const languages = [
   { code: 'es', name: 'Español', flag: '🇪🇸', dir: 'ltr' },
   { code: 'en', name: 'English', flag: '🇬🇧', dir: 'ltr' },
@@ -26,19 +35,21 @@ export type LanguageCode = typeof languages[number]['code'];
 
 export const RTL_LANGUAGES: LanguageCode[] = ['ar', 'ur'];
 
+const merge = (a: any, b: any) => ({ ...a, ...b });
+
 i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources: {
-      es: { translation: es },
-      en: { translation: en },
-      fr: { translation: fr },
-      ar: { translation: ar },
-      ro: { translation: ro },
-      ur: { translation: ur },
-      pa: { translation: pa },
-      hi: { translation: hi },
+      es: { translation: merge(es, tutor_es) },
+      en: { translation: merge(en, tutor_en) },
+      fr: { translation: merge(fr, tutor_fr) },
+      ar: { translation: merge(ar, tutor_ar) },
+      ro: { translation: merge(ro, tutor_ro) },
+      ur: { translation: merge(ur, tutor_ur) },
+      pa: { translation: merge(pa, tutor_pa) },
+      hi: { translation: merge(hi, tutor_hi) },
     },
     fallbackLng: 'es',
     interpolation: { escapeValue: false },
