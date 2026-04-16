@@ -11,13 +11,27 @@ interface ChatMessage {
 }
 
 const TutorChatbot = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
   const [open, setOpen] = useState(false);
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState('');
   const [activeCategory, setActiveCategory] = useState<string | null>(null);
   const [showFaq, setShowFaq] = useState(true);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const prevLang = useRef(i18n.language);
+
+  // Reset chat when language changes
+  useEffect(() => {
+    if (prevLang.current !== i18n.language) {
+      prevLang.current = i18n.language;
+      setMessages([{
+        id: 'greeting',
+        role: 'bot',
+        content: t('tutor.greeting'),
+      }]);
+      setShowFaq(true);
+    }
+  }, [i18n.language, t]);
 
   useEffect(() => {
     if (open && messages.length === 0) {
