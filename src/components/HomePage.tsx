@@ -10,13 +10,13 @@ interface HomePageProps {
 
 const floatAnimation = {
   y: [0, -6, 0],
-  transition: { duration: 3, repeat: Infinity, ease: 'easeInOut' },
+  transition: { duration: 3, repeat: Infinity, ease: 'easeInOut' as const },
 };
 
 const pulseGlow = {
   scale: [1, 1.05, 1],
   opacity: [0.8, 1, 0.8],
-  transition: { duration: 2, repeat: Infinity, ease: 'easeInOut' },
+  transition: { duration: 2, repeat: Infinity, ease: 'easeInOut' as const },
 };
 
 const featureIcons = [
