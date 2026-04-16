@@ -4,6 +4,7 @@ import WizardPage, { type WizardAnswers } from '@/components/WizardPage';
 import ResultsPage from '@/components/ResultsPage';
 import ChecklistPage from '@/components/ChecklistPage';
 import CalendarPage from '@/components/CalendarPage';
+import PageTransition from '@/components/PageTransition';
 
 type AppView = 'home' | 'wizard' | 'results' | 'checklist' | 'calendar';
 
@@ -16,25 +17,33 @@ const Index = () => {
     setView('results');
   };
 
-  switch (view) {
-    case 'home':
-      return <HomePage onStart={() => setView('wizard')} />;
-    case 'wizard':
-      return <WizardPage onComplete={handleWizardComplete} onBack={() => setView('home')} />;
-    case 'results':
-      return (
-        <ResultsPage
-          answers={answers!}
-          onViewChecklist={() => setView('checklist')}
-          onViewCalendar={() => setView('calendar')}
-          onRestart={() => { setAnswers(null); setView('home'); }}
-        />
-      );
-    case 'checklist':
-      return <ChecklistPage onBack={() => setView('results')} />;
-    case 'calendar':
-      return <CalendarPage onBack={() => setView('results')} />;
-  }
+  const renderView = () => {
+    switch (view) {
+      case 'home':
+        return <HomePage onStart={() => setView('wizard')} />;
+      case 'wizard':
+        return <WizardPage onComplete={handleWizardComplete} onBack={() => setView('home')} />;
+      case 'results':
+        return (
+          <ResultsPage
+            answers={answers!}
+            onViewChecklist={() => setView('checklist')}
+            onViewCalendar={() => setView('calendar')}
+            onRestart={() => { setAnswers(null); setView('home'); }}
+          />
+        );
+      case 'checklist':
+        return <ChecklistPage onBack={() => setView('results')} />;
+      case 'calendar':
+        return <CalendarPage onBack={() => setView('results')} />;
+    }
+  };
+
+  return (
+    <PageTransition viewKey={view}>
+      {renderView()}
+    </PageTransition>
+  );
 };
 
 export default Index;
