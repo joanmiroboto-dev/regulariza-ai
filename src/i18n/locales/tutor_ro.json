@@ -1,0 +1,24 @@
+{
+  "tutor": {
+    "title": "Tutor de Regularizare",
+    "greeting": "Bună! Sunt asistentul tău. Selectează o întrebare frecventă sau scrie întrebarea ta și voi găsi răspunsul cel mai relevant.",
+    "placeholder": "Scrie întrebarea ta...",
+    "noResults": "Nu am găsit un răspuns exact. Îți recomand să consulți un avocat specializat în dreptul imigrației.",
+    "categories": { "eligibility": "Eligibilitate", "documents": "Documente", "process": "Proces", "deadlines": "Termene", "general": "General" },
+    "suggestedQuestions": "Întrebări frecvente",
+    "faq": {
+      "f1": { "q": "Cine poate solicita regularizarea extraordinară?", "a": "Cetățenii străini în situație administrativă neregulată care locuiesc în Spania înainte de 31 decembrie 2025, precum și solicitanții de protecție internațională cu cereri depuse înainte de această dată. Trebuie să nu ai cazier judiciar și să dovedești cel puțin 5 luni de reședință continuă." },
+      "f2": { "q": "Ce se întâmplă dacă am ajuns în Spania după 31 decembrie 2025?", "a": "Din păcate, dacă ai ajuns după această dată, nu îndeplinești una dintre cerințele de bază. Îți recomandăm să consulți un avocat pentru a explora alte căi legale." },
+      "f3": { "q": "Ce înseamnă '5 luni de reședință continuă'?", "a": "Înseamnă că trebuie să fi locuit neîntrerupt în Spania cel puțin 5 luni înainte de depunerea cererii. Călătoriile scurte în afara țării pot să nu invalideze această cerință, dar este important să o poți dovedi." },
+      "f4": { "q": "Ce documente am nevoie?", "a": "Documentele principale sunt: 1) Pașaport valabil. 2) Certificat de cazier judiciar legalizat sau apostilat. 3) Dovezi de reședință în Spania (înregistrare municipală, programări medicale, contracte, facturi, etc.)." },
+      "f5": { "q": "Cum obțin certificatul de cazier judiciar?", "a": "În Spania, îl poți solicita online de pe site-ul Ministerului Justiției sau în persoană. Pentru țara de origine, contactează consulatul corespunzător." },
+      "f6": { "q": "Ce dovezi de reședință sunt valabile?", "a": "Sunt valabile: certificatul de înregistrare municipală, rapoarte medicale, contracte de închiriere, facturi de utilități, extrase bancare, carduri de transport nominative, declarații de la ONG-uri și orice document oficial." },
+      "f7": { "q": "Cum depun cererea?", "a": "Două moduri: 1) Online: disponibil din 16 aprilie 2026. 2) În persoană: cu programare din 20 aprilie 2026." },
+      "f8": { "q": "Am nevoie de un avocat?", "a": "Nu este obligatoriu, dar este foarte recomandat, mai ales dacă situația ta este complexă. Există organizații care oferă consiliere juridică gratuită." },
+      "f9": { "q": "Care sunt datele cheie?", "a": "📅 16 aprilie 2026: Începerea depunerii online. 📅 20 aprilie 2026: Începerea programărilor. 📅 30 iunie 2026: Termenul limită." },
+      "f10": { "q": "Ce se întâmplă dacă nu depun cererea până pe 30 iunie?", "a": "Vei pierde oportunitatea de a beneficia de această regularizare extraordinară. Termenele sunt stricte și neextensibile." },
+      "f11": { "q": "Cât costă procedura?", "a": "Taxele exacte vor fi publicate la deschiderea procesului. Consultă site-ul Ministerului pentru informații actualizate." },
+      "f12": { "q": "Acest instrument înlocuiește consultanța juridică?", "a": "Nu. Acest instrument este doar informativ. Nu înlocuiește consultanța juridică profesională. Consultă întotdeauna un avocat specializat." }
+    }
+  }
+}

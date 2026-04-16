@@ -1,0 +1,66 @@
+{
+  "tutor": {
+    "title": "Tutor de Regularización",
+    "greeting": "¡Hola! Soy tu asistente. Selecciona una pregunta frecuente o escribe tu duda y buscaré la respuesta más relevante.",
+    "placeholder": "Escribe tu pregunta...",
+    "noResults": "No encontré una respuesta exacta. Te recomiendo consultar con un abogado especializado en extranjería.",
+    "categories": {
+      "eligibility": "Elegibilidad",
+      "documents": "Documentos",
+      "process": "Proceso",
+      "deadlines": "Plazos",
+      "general": "General"
+    },
+    "suggestedQuestions": "Preguntas frecuentes",
+    "faq": {
+      "f1": {
+        "q": "¿Quién puede solicitar la regularización extraordinaria?",
+        "a": "Pueden solicitarla las personas extranjeras en situación administrativa irregular que residan en España antes del 31 de diciembre de 2025, así como solicitantes de protección internacional con solicitud previa a esa fecha. Es necesario carecer de antecedentes penales y acreditar al menos 5 meses de permanencia continuada."
+      },
+      "f2": {
+        "q": "¿Qué pasa si llegué a España después del 31 de diciembre de 2025?",
+        "a": "Lamentablemente, si llegaste después de esa fecha, no cumples uno de los requisitos básicos para esta regularización extraordinaria. Te recomendamos consultar con un abogado para explorar otras vías legales disponibles."
+      },
+      "f3": {
+        "q": "¿Qué significa 'permanencia continuada de 5 meses'?",
+        "a": "Significa que debes haber residido de forma ininterrumpida en España durante al menos 5 meses antes de presentar tu solicitud. Breves salidas del país podrían no invalidar este requisito, pero es importante poder demostrarlo con documentos como el empadronamiento."
+      },
+      "f4": {
+        "q": "¿Qué documentos necesito para solicitar la regularización?",
+        "a": "Los documentos principales son: 1) Pasaporte en vigor, título de viaje o cédula de inscripción. 2) Certificado de antecedentes penales legalizado o apostillado (de España y de los países donde hayas residido en los últimos 5 años). 3) Pruebas de permanencia en España (empadronamiento, citas médicas, contratos, facturas, etc.)."
+      },
+      "f5": {
+        "q": "¿Cómo consigo el certificado de antecedentes penales?",
+        "a": "En España, puedes solicitarlo online en la web del Ministerio de Justicia o presencialmente. Para los antecedentes de tu país de origen, contacta con el consulado correspondiente. Recuerda que debe estar legalizado o apostillado según el país emisor."
+      },
+      "f6": {
+        "q": "¿Qué pruebas de permanencia son válidas?",
+        "a": "Son válidas: certificado de empadronamiento, informes médicos o citas en el sistema sanitario, contratos de alquiler, facturas de servicios (luz, agua, teléfono), extractos bancarios, tarjetas de transporte nominativas, declaraciones de ONGs que te hayan asistido, y cualquier documento oficial que acredite tu estancia."
+      },
+      "f7": {
+        "q": "¿Cómo presento la solicitud?",
+        "a": "Hay dos vías: 1) Telemática (online): disponible desde el 16 de abril de 2026 a través de la sede electrónica del Ministerio. 2) Presencial: con cita previa a partir del 20 de abril de 2026. Es recomendable intentar primero la vía telemática para evitar colas."
+      },
+      "f8": {
+        "q": "¿Necesito un abogado para presentar la solicitud?",
+        "a": "No es obligatorio, pero es muy recomendable contar con asesoramiento legal, especialmente si tu situación es compleja. Hay organizaciones y ONGs que ofrecen asesoramiento gratuito en materia de extranjería. Consulta con el Colegio de Abogados de tu provincia sobre el turno de oficio."
+      },
+      "f9": {
+        "q": "¿Cuáles son las fechas clave del proceso?",
+        "a": "📅 16 de abril de 2026: Inicio de presentación telemática (online). 📅 20 de abril de 2026: Inicio de atención presencial con cita previa. 📅 30 de junio de 2026: Fecha límite para presentar la solicitud. ¡Es muy importante no esperar al último momento!"
+      },
+      "f10": {
+        "q": "¿Qué pasa si no presento la solicitud antes del 30 de junio?",
+        "a": "Si no presentas tu solicitud antes del 30 de junio de 2026, perderás la oportunidad de acogerte a esta regularización extraordinaria. Los plazos son estrictos e improrrogables. Por eso es fundamental preparar los documentos con antelación."
+      },
+      "f11": {
+        "q": "¿Cuánto cuesta el trámite?",
+        "a": "Las tasas administrativas exactas se publicarán en el momento de la apertura del proceso. Normalmente incluyen la tasa de expedición de la autorización. Te recomendamos consultar la web del Ministerio de Inclusión, Seguridad Social y Migraciones para obtener la información actualizada sobre costes."
+      },
+      "f12": {
+        "q": "¿Esta herramienta sustituye al asesoramiento legal?",
+        "a": "No. Esta herramienta es únicamente informativa y orientativa. No sustituye el asesoramiento legal profesional. Cada caso es diferente y puede tener particularidades que requieran atención especializada. Te recomendamos siempre consultar con un abogado especializado en extranjería."
+      }
+    }
+  }
+}
