@@ -6,6 +6,7 @@ import ChecklistPage from '@/components/ChecklistPage';
 import CalendarPage from '@/components/CalendarPage';
 import PageTransition from '@/components/PageTransition';
 import ThemeToggle from '@/components/ThemeToggle';
+import TutorChatbot from '@/components/TutorChatbot';
 
 type AppView = 'home' | 'wizard' | 'results' | 'checklist' | 'calendar';
 
@@ -43,6 +44,7 @@ const Index = () => {
   return (
     <>
       <ThemeToggle />
+      <TutorChatbot />
       <PageTransition viewKey={view}>
         {renderView()}
       </PageTransition>
