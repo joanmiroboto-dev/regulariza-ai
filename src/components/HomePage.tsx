@@ -43,11 +43,14 @@ const HomePage = ({ onStart }: HomePageProps) => {
         <div className="text-center space-y-3">
           <motion.div
             animate={floatAnimation}
-            className="inline-flex items-center justify-center w-20 h-20 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/20 mb-2 shadow-lg shadow-primary/10"
+            className="inline-flex items-center justify-center w-24 h-24 rounded-2xl overflow-hidden mb-2"
           >
-            <motion.div animate={pulseGlow}>
-              <Shield className="w-10 h-10 text-primary" />
-            </motion.div>
+            <motion.img
+              src={logoImg}
+              alt="La Casa Grande"
+              className="w-full h-full object-contain"
+              animate={pulseGlow}
+            />
           </motion.div>
           <motion.h1
             initial={{ opacity: 0, y: 10 }}
