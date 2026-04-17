@@ -42,9 +42,9 @@ const Index = () => {
           />
         );
       case 'checklist':
-        return <ChecklistPage onBack={() => setView('results')} />;
+        return <ChecklistPage onBack={() => setView(answers ? 'results' : 'home')} />;
       case 'calendar':
-        return <CalendarPage onBack={() => setView('results')} />;
+        return <CalendarPage onBack={() => setView(answers ? 'results' : 'home')} />;
       case 'resources':
         return <ResourcesPage onBack={() => setView('home')} />;
     }
