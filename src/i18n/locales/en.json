@@ -71,7 +71,12 @@
       "name": "Asylum application (if applicable)",
       "detail": "Documentation proving the international protection application filed before 12/31/2025."
     },
-    "saved": "Progress saved"
+    "saved": "Progress saved",
+    "officialDoc": {
+      "title": "Official document — Information sheet 28 bis",
+      "description": "Official information sheet on the residence authorization for arraigo for international protection applicants (Additional Provision 20 of RD 1155/2024). Includes requirements, required documentation, procedure and deadlines.",
+      "download": "Download PDF"
+    }
   },
   "calendar": {
     "title": "Key Dates and Deadlines",

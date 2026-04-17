@@ -71,7 +71,12 @@
       "name": "Demande d'asile (le cas échéant)",
       "detail": "Documentation prouvant la demande de protection internationale déposée avant le 31/12/2025."
     },
-    "saved": "Progrès sauvegardé"
+    "saved": "Progrès sauvegardé",
+    "officialDoc": {
+      "title": "Document officiel — Fiche d'information 28 bis",
+      "description": "Fiche d'information officielle sur l'autorisation de résidence par arraigo pour les demandeurs de protection internationale (Disposition Additionnelle 20 du RD 1155/2024). Inclut les exigences, la documentation requise, la procédure et les délais.",
+      "download": "Télécharger le PDF"
+    }
   },
   "calendar": {
     "title": "Dates clés et délais",
