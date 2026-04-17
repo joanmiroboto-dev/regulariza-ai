@@ -123,6 +123,27 @@
     "videoTitle": "Informational video",
     "videoDescription": "Explanatory video about the regularization process."
   },
+  "appointment": {
+    "title": "Request appointment via form",
+    "description": "Basic steps to request your appointment and submit the documentation for the 2026 Extraordinary Regularization.",
+    "step1": {
+      "title": "1. Download the official form",
+      "description": "Download form EX-31 (international protection applicants, AP 20) or EX-32 (extraordinary arraigo, AP 21) from the Documents section."
+    },
+    "step2": {
+      "title": "2. Fill in and sign the form",
+      "description": "Complete all fields of the editable PDF, check that your personal details match your passport and sign the document."
+    },
+    "step3": {
+      "title": "3. Request your appointment",
+      "description": "Book your appointment in person at the authorized offices (Immigration, Post Office, Social Security) or online through the Ministry's electronic site (Mercurio)."
+    },
+    "step4": {
+      "title": "4. Submit the documentation",
+      "description": "Attend your appointment with the signed form, copy and original of your passport, criminal record certificate, proof of fee payment (form 790 code 052) and all other required documents."
+    },
+    "warning": "Remember: the deadline to submit the application ends on June 30, 2026. Prepare your documents in advance."
+  },
   "common": {
     "back": "Back",
     "resources": "Resources"

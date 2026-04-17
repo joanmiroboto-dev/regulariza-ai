@@ -123,6 +123,27 @@
     "videoTitle": "Vidéo d'information",
     "videoDescription": "Vidéo explicative sur le processus de régularisation."
   },
+  "appointment": {
+    "title": "Demander rendez-vous via formulaire",
+    "description": "Étapes de base pour demander votre rendez-vous et présenter les documents de la Régularisation Extraordinaire 2026.",
+    "step1": {
+      "title": "1. Téléchargez le formulaire officiel",
+      "description": "Téléchargez le formulaire EX-31 (demandeurs de protection internationale, DA 20) ou EX-32 (arraigo extraordinaire, DA 21) depuis la section Documents."
+    },
+    "step2": {
+      "title": "2. Remplissez et signez le formulaire",
+      "description": "Complétez tous les champs du PDF modifiable, vérifiez que vos données personnelles correspondent à votre passeport et signez le document."
+    },
+    "step3": {
+      "title": "3. Demandez votre rendez-vous",
+      "description": "Prenez rendez-vous en personne dans les bureaux habilités (Étrangers, Poste, Sécurité Sociale) ou en ligne via le site électronique du Ministère (Mercurio)."
+    },
+    "step4": {
+      "title": "4. Présentez les documents",
+      "description": "Présentez-vous à votre rendez-vous avec le formulaire signé, copie et original de votre passeport, certificat de casier judiciaire, justificatif du paiement de la taxe (formulaire 790 code 052) et autres documents requis."
+    },
+    "warning": "Rappel : le délai pour soumettre la demande se termine le 30 juin 2026. Préparez vos documents à l'avance."
+  },
   "common": {
     "back": "Retour",
     "resources": "Ressources"
