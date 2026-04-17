@@ -71,7 +71,12 @@
       "name": "Solicitud de asilo (si aplica)",
       "detail": "Documentación que acredite la solicitud de protección internacional presentada antes del 31/12/2025."
     },
-    "saved": "Progreso guardado"
+    "saved": "Progreso guardado",
+    "officialDoc": {
+      "title": "Documento oficial — Hoja informativa 28 bis",
+      "description": "Hoja informativa oficial sobre la autorización de residencia por arraigo para solicitantes de protección internacional (Disposición Adicional 20ª del RD 1155/2024). Incluye requisitos, documentación exigible, procedimiento y plazos.",
+      "download": "Descargar PDF"
+    }
   },
   "calendar": {
     "title": "Fechas Clave y Plazos",

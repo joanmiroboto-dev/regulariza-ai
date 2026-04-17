@@ -71,7 +71,12 @@
       "name": "Cerere de azil (dacă este cazul)",
       "detail": "Documentație care dovedește cererea de protecție internațională depusă înainte de 31/12/2025."
     },
-    "saved": "Progres salvat"
+    "saved": "Progres salvat",
+    "officialDoc": {
+      "title": "Document oficial — Fișa informativă 28 bis",
+      "description": "Fișa informativă oficială privind autorizația de rezidență pentru arraigo pentru solicitanții de protecție internațională (Dispoziția Adițională 20 din RD 1155/2024). Include cerințele, documentația necesară, procedura și termenele.",
+      "download": "Descărcați PDF"
+    }
   },
   "calendar": {
     "title": "Date cheie și termene",
