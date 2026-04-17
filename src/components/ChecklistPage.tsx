@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Button } from '@/components/ui/button';
 import { Checkbox } from '@/components/ui/checkbox';
-import { ArrowLeft, Check } from 'lucide-react';
+import { ArrowLeft, Check, FileText, Download } from 'lucide-react';
 
 interface ChecklistPageProps {
   onBack: () => void;
@@ -69,6 +69,32 @@ const ChecklistPage = ({ onBack }: ChecklistPageProps) => {
               {checked[doc] && <Check className="w-5 h-5 text-accent shrink-0 mt-0.5" />}
             </button>
           ))}
+        </div>
+
+        {/* Official document */}
+        <div className="wizard-card space-y-3">
+          <div className="flex items-start gap-3">
+            <div className="w-10 h-10 rounded-lg bg-primary/10 flex items-center justify-center shrink-0">
+              <FileText className="w-5 h-5 text-primary" />
+            </div>
+            <div className="flex-1 space-y-1">
+              <h3 className="text-sm font-semibold text-foreground">
+                {t('checklist.officialDoc.title')}
+              </h3>
+              <p className="text-xs text-muted-foreground leading-relaxed">
+                {t('checklist.officialDoc.description')}
+              </p>
+            </div>
+          </div>
+          <a
+            href="/docs/28-bis-arraigo-proteccion-internacional.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 w-full px-4 py-2.5 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition-colors"
+          >
+            <Download className="w-4 h-4" />
+            {t('checklist.officialDoc.download')}
+          </a>
         </div>
 
         {done === total && (
