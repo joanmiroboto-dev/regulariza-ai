@@ -2,11 +2,12 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { languages, RTL_LANGUAGES, type LanguageCode } from '@/i18n';
 import { Button } from '@/components/ui/button';
-import { Shield, FileText, Calendar } from 'lucide-react';
+import { Shield, FileText, Calendar, PlayCircle } from 'lucide-react';
 import logoImg from '@/assets/logo.jpg';
 
 interface HomePageProps {
   onStart: () => void;
+  onResources?: () => void;
 }
 
 const floatAnimation = {
@@ -26,7 +27,7 @@ const featureIcons = [
   { icon: Calendar, delay: 0.2 },
 ];
 
-const HomePage = ({ onStart }: HomePageProps) => {
+const HomePage = ({ onStart, onResources }: HomePageProps) => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (code: LanguageCode) => {
@@ -134,6 +135,7 @@ const HomePage = ({ onStart }: HomePageProps) => {
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8 }}
+          className="space-y-2"
         >
           <Button
             onClick={onStart}
@@ -142,6 +144,17 @@ const HomePage = ({ onStart }: HomePageProps) => {
           >
             {t('home.startButton')}
           </Button>
+          {onResources && (
+            <Button
+              onClick={onResources}
+              variant="outline"
+              size="lg"
+              className="w-full text-sm font-medium py-5 rounded-xl gap-2"
+            >
+              <PlayCircle className="w-4 h-4" />
+              {t('resources.title')}
+            </Button>
+          )}
         </motion.div>
 
         {/* Disclaimer */}

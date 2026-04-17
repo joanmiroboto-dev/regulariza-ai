@@ -4,11 +4,12 @@ import WizardPage, { type WizardAnswers } from '@/components/WizardPage';
 import ResultsPage from '@/components/ResultsPage';
 import ChecklistPage from '@/components/ChecklistPage';
 import CalendarPage from '@/components/CalendarPage';
+import ResourcesPage from '@/components/ResourcesPage';
 import PageTransition from '@/components/PageTransition';
 import ThemeToggle from '@/components/ThemeToggle';
 import TutorChatbot from '@/components/TutorChatbot';
 
-type AppView = 'home' | 'wizard' | 'results' | 'checklist' | 'calendar';
+type AppView = 'home' | 'wizard' | 'results' | 'checklist' | 'calendar' | 'resources';
 
 const Index = () => {
   const [view, setView] = useState<AppView>('home');
@@ -22,7 +23,12 @@ const Index = () => {
   const renderView = () => {
     switch (view) {
       case 'home':
-        return <HomePage onStart={() => setView('wizard')} />;
+        return (
+          <HomePage
+            onStart={() => setView('wizard')}
+            onResources={() => setView('resources')}
+          />
+        );
       case 'wizard':
         return <WizardPage onComplete={handleWizardComplete} onBack={() => setView('home')} />;
       case 'results':
@@ -38,6 +44,8 @@ const Index = () => {
         return <ChecklistPage onBack={() => setView('results')} />;
       case 'calendar':
         return <CalendarPage onBack={() => setView('results')} />;
+      case 'resources':
+        return <ResourcesPage onBack={() => setView('home')} />;
     }
   };
 

@@ -99,6 +99,17 @@
     "home": "Accueil",
     "wizard": "Évaluation",
     "checklist": "Documents",
-    "calendar": "Délais"
+    "calendar": "Délais",
+    "resources": "Ressources"
+  },
+  "resources": {
+    "title": "Ressources d'aide",
+    "description": "Vidéos et documents d'information sur la Régularisation Extraordinaire 2026.",
+    "videoTitle": "Vidéo d'information",
+    "videoDescription": "Vidéo explicative sur le processus de régularisation."
+  },
+  "common": {
+    "back": "Retour",
+    "resources": "Ressources"
   }
 }
