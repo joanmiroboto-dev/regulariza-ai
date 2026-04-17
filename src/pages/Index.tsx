@@ -27,6 +27,7 @@ const Index = () => {
           <HomePage
             onStart={() => setView('wizard')}
             onResources={() => setView('resources')}
+            onChecklist={() => setView('checklist')}
           />
         );
       case 'wizard':
