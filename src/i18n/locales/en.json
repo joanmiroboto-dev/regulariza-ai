@@ -81,6 +81,11 @@
       "title": "Official form EX-31 (editable)",
       "description": "Official EX-31 application form for the residence authorization due to exceptional circumstances for arraigo (international protection applicants, AP 20). Editable PDF that must be filled in and signed before submitting the application.",
       "download": "Download form"
+    },
+    "officialFormEx32": {
+      "title": "Official form EX-32 (extraordinary arraigo)",
+      "description": "Official EX-32 application form for the residence authorization due to exceptional circumstances for extraordinary arraigo (Additional Provision 21 of RD 1155/2024). Fill it in and sign it before submitting the application.",
+      "download": "Download form"
     }
   },
   "calendar": {

@@ -81,6 +81,11 @@
       "title": "Formulario oficial EX-31 (editable)",
       "description": "Modelo oficial de solicitud EX-31 para la autorización de residencia por circunstancias excepcionales por razón de arraigo (solicitantes de protección internacional, DA 20ª). PDF editable que debe cumplimentarse y firmarse antes de presentar la solicitud.",
       "download": "Descargar formulario"
+    },
+    "officialFormEx32": {
+      "title": "Formulario oficial EX-32 (arraigo extraordinario)",
+      "description": "Modelo oficial de solicitud EX-32 para la autorización de residencia por circunstancias excepcionales por razón de arraigo extraordinario (Disposición Adicional 21ª del RD 1155/2024). Cumpliméntalo y fírmalo antes de presentar la solicitud.",
+      "download": "Descargar formulario"
     }
   },
   "calendar": {
