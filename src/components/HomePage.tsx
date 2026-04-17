@@ -105,31 +105,7 @@ const HomePage = ({ onStart, onResources, onChecklist }: HomePageProps) => {
           </div>
         </motion.div>
 
-        {/* Features */}
-        <div className="grid grid-cols-1 gap-3">
-          {[
-            { icon: Shield, text: t('nav.wizard'), color: 'text-primary' },
-            { icon: FileText, text: t('nav.checklist'), color: 'text-accent' },
-            { icon: Calendar, text: t('nav.calendar'), color: 'text-warning' },
-          ].map(({ icon: Icon, text, color }, i) => (
-            <motion.div
-              key={text}
-              initial={{ opacity: 0, x: -20 }}
-              animate={{ opacity: 1, x: 0 }}
-              transition={{ delay: 0.5 + i * 0.1 }}
-              whileHover={{ x: 4 }}
-              className="flex items-center gap-3 px-4 py-3 rounded-lg bg-secondary/50 text-secondary-foreground text-sm cursor-default"
-            >
-              <motion.div
-                animate={{ rotate: [0, 5, -5, 0] }}
-                transition={{ duration: 4, repeat: Infinity, delay: i * 0.5 }}
-              >
-                <Icon className={`w-5 h-5 ${color} shrink-0`} />
-              </motion.div>
-              <span>{text}</span>
-            </motion.div>
-          ))}
-        </div>
+        {/* Features removed — duplicated by action buttons below */}
 
         {/* Start button */}
         <motion.div
