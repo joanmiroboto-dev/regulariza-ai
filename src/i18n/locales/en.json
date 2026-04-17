@@ -99,6 +99,17 @@
     "home": "Home",
     "wizard": "Assessment",
     "checklist": "Documents",
-    "calendar": "Deadlines"
+    "calendar": "Deadlines",
+    "resources": "Resources"
+  },
+  "resources": {
+    "title": "Help resources",
+    "description": "Videos and informational materials about the 2026 Extraordinary Regularization.",
+    "videoTitle": "Informational video",
+    "videoDescription": "Explanatory video about the regularization process."
+  },
+  "common": {
+    "back": "Back",
+    "resources": "Resources"
   }
 }

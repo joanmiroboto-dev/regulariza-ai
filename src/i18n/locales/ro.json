@@ -99,6 +99,17 @@
     "home": "Acasă",
     "wizard": "Evaluare",
     "checklist": "Documente",
-    "calendar": "Termene"
+    "calendar": "Termene",
+    "resources": "Resurse"
+  },
+  "resources": {
+    "title": "Resurse de ajutor",
+    "description": "Videoclipuri și materiale informative despre Regularizarea Extraordinară 2026.",
+    "videoTitle": "Videoclip informativ",
+    "videoDescription": "Videoclip explicativ despre procesul de regularizare."
+  },
+  "common": {
+    "back": "Înapoi",
+    "resources": "Resurse"
   }
 }

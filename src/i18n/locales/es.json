@@ -99,6 +99,17 @@
     "home": "Inicio",
     "wizard": "Evaluación",
     "checklist": "Documentos",
-    "calendar": "Plazos"
+    "calendar": "Plazos",
+    "resources": "Recursos"
+  },
+  "resources": {
+    "title": "Recursos de ayuda",
+    "description": "Vídeos y materiales informativos sobre la Regularización Extraordinaria 2026.",
+    "videoTitle": "Vídeo informativo",
+    "videoDescription": "Vídeo explicativo sobre el proceso de regularización."
+  },
+  "common": {
+    "back": "Volver",
+    "resources": "Recursos"
   }
 }

@@ -99,6 +99,17 @@
     "home": "ਹੋਮ",
     "wizard": "ਮੁਲਾਂਕਣ",
     "checklist": "ਦਸਤਾਵੇਜ਼",
-    "calendar": "ਮਿਆਦਾਂ"
+    "calendar": "ਮਿਆਦਾਂ",
+    "resources": "ਸਰੋਤ"
+  },
+  "resources": {
+    "title": "ਮਦਦ ਦੇ ਸਰੋਤ",
+    "description": "2026 ਅਸਾਧਾਰਨ ਨਿਯਮਿਤੀਕਰਨ ਬਾਰੇ ਵੀਡੀਓ ਅਤੇ ਜਾਣਕਾਰੀ ਸਮੱਗਰੀ।",
+    "videoTitle": "ਜਾਣਕਾਰੀ ਵੀਡੀਓ",
+    "videoDescription": "ਨਿਯਮਿਤੀਕਰਨ ਪ੍ਰਕਿਰਿਆ ਬਾਰੇ ਵਿਆਖਿਆਤਮਕ ਵੀਡੀਓ।"
+  },
+  "common": {
+    "back": "ਵਾਪਸ",
+    "resources": "ਸਰੋਤ"
   }
 }
