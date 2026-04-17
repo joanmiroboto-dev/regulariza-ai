@@ -123,6 +123,27 @@
     "videoTitle": "Videoclip informativ",
     "videoDescription": "Videoclip explicativ despre procesul de regularizare."
   },
+  "appointment": {
+    "title": "Solicitați programare prin formular",
+    "description": "Pași de bază pentru a solicita programarea și a depune documentele pentru Regularizarea Extraordinară 2026.",
+    "step1": {
+      "title": "1. Descărcați formularul oficial",
+      "description": "Descărcați formularul EX-31 (solicitanți de protecție internațională, DA 20) sau EX-32 (arraigo extraordinar, DA 21) din secțiunea Documente."
+    },
+    "step2": {
+      "title": "2. Completați și semnați formularul",
+      "description": "Completați toate câmpurile PDF-ului editabil, verificați că datele personale corespund cu pașaportul și semnați documentul."
+    },
+    "step3": {
+      "title": "3. Solicitați programarea",
+      "description": "Rezervați programarea în persoană la birourile autorizate (Imigrație, Poștă, Securitate Socială) sau online prin site-ul electronic al Ministerului (Mercurio)."
+    },
+    "step4": {
+      "title": "4. Depuneți documentele",
+      "description": "Prezentați-vă la programare cu formularul semnat, copia și originalul pașaportului, certificatul de cazier judiciar, dovada plății taxei (formular 790 cod 052) și restul documentelor necesare."
+    },
+    "warning": "Rețineți: termenul limită pentru depunerea cererii se încheie pe 30 iunie 2026. Pregătiți documentele din timp."
+  },
   "common": {
     "back": "Înapoi",
     "resources": "Resurse"

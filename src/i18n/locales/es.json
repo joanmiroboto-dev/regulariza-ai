@@ -123,6 +123,27 @@
     "videoTitle": "Vídeo informativo",
     "videoDescription": "Vídeo explicativo sobre el proceso de regularización."
   },
+  "appointment": {
+    "title": "Pedir cita mediante formulario",
+    "description": "Pasos básicos para solicitar tu cita y presentar la documentación de la Regularización Extraordinaria 2026.",
+    "step1": {
+      "title": "1. Descarga el formulario oficial",
+      "description": "Descarga el modelo EX-31 (solicitantes de protección internacional, DA 20ª) o EX-32 (arraigo extraordinario, DA 21ª) desde la sección de Documentos."
+    },
+    "step2": {
+      "title": "2. Cumplimenta y firma el formulario",
+      "description": "Rellena todos los campos del PDF editable, revisa que tus datos personales coincidan con tu pasaporte y firma el documento."
+    },
+    "step3": {
+      "title": "3. Solicita tu cita",
+      "description": "Pide cita previa de forma presencial en las oficinas habilitadas (Extranjería, Correos, Seguridad Social) o de forma telemática a través de la sede electrónica del Ministerio (Mercurio)."
+    },
+    "step4": {
+      "title": "4. Presenta la documentación",
+      "description": "Acude a tu cita con el formulario firmado, copia y original de tu pasaporte, certificado de antecedentes penales, justificante de la tasa (modelo 790 código 052) y el resto de documentos exigidos."
+    },
+    "warning": "Recuerda: el plazo para presentar la solicitud finaliza el 30 de junio de 2026. Prepara tu documentación con antelación."
+  },
   "common": {
     "back": "Volver",
     "resources": "Recursos"
