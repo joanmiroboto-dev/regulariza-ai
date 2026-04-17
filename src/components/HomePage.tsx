@@ -133,6 +133,17 @@ const HomePage = ({ onStart, onResources, onChecklist, onAppointment }: HomePage
               {t('checklist.title')}
             </Button>
           )}
+          {onAppointment && (
+            <Button
+              onClick={onAppointment}
+              variant="outline"
+              size="lg"
+              className="w-full text-sm font-medium py-5 rounded-xl gap-2"
+            >
+              <CalendarCheck className="w-4 h-4" />
+              {t('appointment.title')}
+            </Button>
+          )}
           {onResources && (
             <Button
               onClick={onResources}
