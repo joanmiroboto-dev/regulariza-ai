@@ -81,6 +81,11 @@
       "title": "Formulaire officiel EX-31 (modifiable)",
       "description": "Formulaire officiel de demande EX-31 pour l'autorisation de résidence pour circonstances exceptionnelles pour arraigo (demandeurs de protection internationale, DA 20). PDF modifiable qui doit être rempli et signé avant de soumettre la demande.",
       "download": "Télécharger le formulaire"
+    },
+    "officialFormEx32": {
+      "title": "Formulaire officiel EX-32 (arraigo extraordinaire)",
+      "description": "Formulaire officiel de demande EX-32 pour l'autorisation de résidence pour circonstances exceptionnelles pour arraigo extraordinaire (Disposition Additionnelle 21 du RD 1155/2024). Remplissez-le et signez-le avant de soumettre la demande.",
+      "download": "Télécharger le formulaire"
     }
   },
   "calendar": {

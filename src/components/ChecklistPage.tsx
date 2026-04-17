@@ -13,6 +13,7 @@ const DOCS = ['doc1', 'doc2', 'doc3', 'doc4'] as const;
 const OFFICIAL_DOCS = [
   { key: 'officialDoc', file: '/docs/28-bis-arraigo-proteccion-internacional.pdf' },
   { key: 'officialForm', file: '/docs/EX-31-formulario-arraigo-proteccion-internacional.pdf' },
+  { key: 'officialFormEx32', file: '/docs/EX-32-formulario-arraigo-extraordinario.pdf' },
 ] as const;
 
 const ChecklistPage = ({ onBack }: ChecklistPageProps) => {

@@ -81,6 +81,11 @@
       "title": "Formular oficial EX-31 (editabil)",
       "description": "Formular oficial de cerere EX-31 pentru autorizația de rezidență pentru circumstanțe excepționale pentru arraigo (solicitanți de protecție internațională, DA 20). PDF editabil care trebuie completat și semnat înainte de depunerea cererii.",
       "download": "Descărcați formularul"
+    },
+    "officialFormEx32": {
+      "title": "Formular oficial EX-32 (arraigo extraordinar)",
+      "description": "Formular oficial de cerere EX-32 pentru autorizația de rezidență pentru circumstanțe excepționale pentru arraigo extraordinar (Dispoziția Adițională 21 din RD 1155/2024). Completați-l și semnați-l înainte de depunerea cererii.",
+      "download": "Descărcați formularul"
     }
   },
   "calendar": {
