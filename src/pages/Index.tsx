@@ -5,11 +5,12 @@ import ResultsPage from '@/components/ResultsPage';
 import ChecklistPage from '@/components/ChecklistPage';
 import CalendarPage from '@/components/CalendarPage';
 import ResourcesPage from '@/components/ResourcesPage';
+import AppointmentPage from '@/components/AppointmentPage';
 import PageTransition from '@/components/PageTransition';
 import ThemeToggle from '@/components/ThemeToggle';
 import TutorChatbot from '@/components/TutorChatbot';
 
-type AppView = 'home' | 'wizard' | 'results' | 'checklist' | 'calendar' | 'resources';
+type AppView = 'home' | 'wizard' | 'results' | 'checklist' | 'calendar' | 'resources' | 'appointment';
 
 const Index = () => {
   const [view, setView] = useState<AppView>('home');
@@ -28,6 +29,7 @@ const Index = () => {
             onStart={() => setView('wizard')}
             onResources={() => setView('resources')}
             onChecklist={() => setView('checklist')}
+            onAppointment={() => setView('appointment')}
           />
         );
       case 'wizard':
@@ -47,6 +49,8 @@ const Index = () => {
         return <CalendarPage onBack={() => setView(answers ? 'results' : 'home')} />;
       case 'resources':
         return <ResourcesPage onBack={() => setView('home')} />;
+      case 'appointment':
+        return <AppointmentPage onBack={() => setView('home')} />;
     }
   };
 

@@ -2,13 +2,14 @@ import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import { languages, RTL_LANGUAGES, type LanguageCode } from '@/i18n';
 import { Button } from '@/components/ui/button';
-import { Shield, FileText, Calendar, PlayCircle } from 'lucide-react';
+import { Shield, FileText, Calendar, PlayCircle, CalendarCheck } from 'lucide-react';
 import logoImg from '@/assets/logo.jpg';
 
 interface HomePageProps {
   onStart: () => void;
   onResources?: () => void;
   onChecklist?: () => void;
+  onAppointment?: () => void;
 }
 
 const floatAnimation = {
@@ -28,7 +29,7 @@ const featureIcons = [
   { icon: Calendar, delay: 0.2 },
 ];
 
-const HomePage = ({ onStart, onResources, onChecklist }: HomePageProps) => {
+const HomePage = ({ onStart, onResources, onChecklist, onAppointment }: HomePageProps) => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (code: LanguageCode) => {
