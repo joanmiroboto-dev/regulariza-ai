@@ -8,6 +8,7 @@ import logoImg from '@/assets/logo.jpg';
 interface HomePageProps {
   onStart: () => void;
   onResources?: () => void;
+  onChecklist?: () => void;
 }
 
 const floatAnimation = {
@@ -27,7 +28,7 @@ const featureIcons = [
   { icon: Calendar, delay: 0.2 },
 ];
 
-const HomePage = ({ onStart, onResources }: HomePageProps) => {
+const HomePage = ({ onStart, onResources, onChecklist }: HomePageProps) => {
   const { t, i18n } = useTranslation();
 
   const changeLanguage = (code: LanguageCode) => {
@@ -144,6 +145,17 @@ const HomePage = ({ onStart, onResources }: HomePageProps) => {
           >
             {t('home.startButton')}
           </Button>
+          {onChecklist && (
+            <Button
+              onClick={onChecklist}
+              variant="outline"
+              size="lg"
+              className="w-full text-sm font-medium py-5 rounded-xl gap-2"
+            >
+              <FileText className="w-4 h-4" />
+              {t('checklist.title')}
+            </Button>
+          )}
           {onResources && (
             <Button
               onClick={onResources}
